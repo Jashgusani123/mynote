@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.loginbox , .signupbox{
+  padding: 10px;
+  border: 2px solid  rgb(227, 99, 133);
+  border-radius: 30px;
+  box-shadow: 0px 0px 30px rgb(227, 99, 133);
+}
+.loginbox label , .signupbox label {
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.loginbox input , .signupbox input{
+  padding: 10px;
+}
+.LtoS{
+  font-family: sans-serif;
+  color: rgba(72, 72, 255, 0.888);
+  text-decoration: none;
+}
+.loginbox form , .signupbox form{
+  padding: 3px;
+}
+.lhanding{
+  font-family: monospace;
+}
