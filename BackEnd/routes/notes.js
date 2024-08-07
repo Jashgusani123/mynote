@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const fatchUser = require('../middlaware/fatchUser');
 const Notes = require('../models/Notes');
-const { body, validationResult } = require('express-validator')
+// const { body, validationResult } = require('express-validator')
 
 // Router:1 Fatch All Notes : login require ,, GET /api/notes/fatchallnotes
 router.get("/fatchallnotes", fatchUser, async (req, res) => {
