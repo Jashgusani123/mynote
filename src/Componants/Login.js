@@ -7,7 +7,7 @@ const Login = (props) => {
     let Navigate = useNavigate()
     const handlelogin = async (e) => {
         e.preventDefault()
-        const response = await fetch(`http://localhost:5000/api/author/login`, {
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/author/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
