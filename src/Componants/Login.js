@@ -7,7 +7,7 @@ const Login = (props) => {
     let Navigate = useNavigate()
     const handlelogin = async (e) => {
         e.preventDefault()
-        let url = "https://mynote-4s6t.onrender.com"
+        let url = "https://note-backend-xoec.onrender.com"
         
         const response = await fetch(`${url}/api/author/login`, {
             method: "POST",
