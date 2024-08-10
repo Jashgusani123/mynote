@@ -50,7 +50,7 @@ const SignupUser = (props) => {
 
                 <button type="submit" className="btn btn-primary my-1" >Sign Up</button>
                 <hr />
-                <Link class="LtoS d-flex justify-content-center" to="/login" >Alreday Have an Account</Link>
+                <Link className="LtoS d-flex justify-content-center" to="/login" >Alreday Have an Account</Link>
             </form>
             </div>
         </>

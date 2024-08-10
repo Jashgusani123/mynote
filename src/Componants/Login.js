@@ -7,7 +7,9 @@ const Login = (props) => {
     let Navigate = useNavigate()
     const handlelogin = async (e) => {
         e.preventDefault()
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/author/login`, {
+        let url = "https://note-backend-xoec.onrender.com"
+        
+        const response = await fetch(`${url}/api/author/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -44,7 +46,7 @@ const Login = (props) => {
 
                 <button type="submit" className="btn btn-primary">Submit</button>
                 <hr />
-                <Link class="LtoS d-flex justify-content-center" to="/signup" >I don't Have an Account,Create Account</Link>
+                <Link className="LtoS d-flex justify-content-center" to="/signup" >I don't Have an Account,Create Account</Link>
             </form>
             </div>
         </>
