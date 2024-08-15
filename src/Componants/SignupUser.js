@@ -11,7 +11,9 @@ const SignupUser = (props) => {
 
     const handlesignup = async (e) => {
         e.preventDefault()
-        const response = await fetch(`https://note-backend-xoec.onrender.com/api/author/createuser`, {
+        let url = "https://note-backend-xoec.onrender.com"
+
+        const response = await fetch(`${url}/api/author/createuser`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
