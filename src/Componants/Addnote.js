@@ -10,9 +10,14 @@ const Addnote = (props) => {
     
     const handleAdd = (e)=>{
         e.preventDefault()
-        addNotes(note.title , note.description , note.tag)
-        showalert("Add Note SuccessFully " , "success")
-        setnote({title:"" , description : "" , tag:"Default"})
+        if(note.title === "" , note.description === ""){
+            showalert("Plz Full Data .." , "danger")
+        }else{
+            addNotes(note.title , note.description , note.tag)
+            showalert("Add Note SuccessFully " , "success")
+            setnote({title:"" , description : "" , tag:"Default"})
+        }
+
     }   
 
     const onChange = (e)=>{

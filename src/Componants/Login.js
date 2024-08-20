@@ -7,8 +7,8 @@ const Login = (props) => {
     let Navigate = useNavigate()
     const handlelogin = async (e) => {
         e.preventDefault()
-        let url = "https://note-backend-xoec.onrender.com"
-        
+        let url = "http://localhost:5000"
+
         const response = await fetch(`${url}/api/author/login`, {
             method: "POST",
             headers: {
@@ -31,23 +31,23 @@ const Login = (props) => {
     }
     return (
         <>
-        <div className="container loginbox w-50" >
-            <h1 className='d-flex justify-content-center lhanding'>Login-Page</h1>
-            <hr />
-            <form className='my-3' onSubmit={handlelogin}>
-                <div className="form-group my-3">
-                    <label htmlFor="email">Email address</label>
-                    <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" value={credentials.email} onChange={onnChange} />
-                </div>
-                <div className="form-group my-4">
-                    <label htmlFor="password">Password</label>
-                    <input type="password" className="form-control" id="password" placeholder="Password" name="password" value={credentials.password} onChange={onnChange} />
-                </div>
-
-                <button type="submit" className="btn btn-primary">Submit</button>
+            <div className="container loginbox w-50" >
+                <h1 className='d-flex justify-content-center lhanding'>Login-Page</h1>
                 <hr />
-                <Link className="LtoS d-flex justify-content-center" to="/signup" >I don't Have an Account,Create Account</Link>
-            </form>
+                <form className='my-3' onSubmit={handlelogin}>
+                    <div className="form-group my-3">
+                        <label htmlFor="email">Email address</label>
+                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" value={credentials.email} onChange={onnChange} />
+                    </div>
+                    <div className="form-group my-4">
+                        <label htmlFor="password">Password</label>
+                        <input type="password" className="form-control" id="password" placeholder="Password" name="password" value={credentials.password} onChange={onnChange} />
+                    </div>
+
+                    <button type="submit" className="btn btn-primary">Submit</button>
+                    <hr />
+                    <Link className="LtoS d-flex justify-content-center" to="/signup" >I don't Have an Account,Create Account</Link>
+                </form>
             </div>
         </>
     )

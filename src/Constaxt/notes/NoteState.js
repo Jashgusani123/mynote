@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import noteContext from './noteContext'
 
 const NoteState = (props) => {
-  const host = "https://note-backend-xoec.onrender.com"
+  const host = "http://localhost:5000"
    const noteInitsialized = []
    const [notes, setnotes] = useState(noteInitsialized)
 
@@ -34,9 +34,6 @@ const NoteState = (props) => {
     const note = await response.json()
     setnotes(notes.concat(note))
    }
-
-
-
 
    //Delete a Note...
    const deleteNote = async(id)=>{

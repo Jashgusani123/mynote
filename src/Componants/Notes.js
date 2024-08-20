@@ -19,22 +19,26 @@ const Note = (props) => {
   }, [])
   const refShowModal = useRef(null)
   const refClose = useRef(null)
-  const [note, setnote] = useState({id:"" ,etitle:"" , edescription : "" , etag:""})
+  const [note, setnote] = useState({id:"" ,etitle:"" , edescription : "" , etag:"" , desebal:false})
     
   const handleUpdate = (e)=>{
+    if(note.etitle === "" && note.edescription === ""){
+      showalert("Plz Enter So I wil Update If Not so Close it .." , "denger")
+    }else{
       editNote(note.id ,note.etitle , note.edescription , note.etag)
       refClose.current.click()
      showalert("Update Note Succesfully" , "success")
-
+    }
+      
   }
 
   const onChange = (e)=>{
-      setnote({...note , [e.target.name] : e.target.value})
+      setnote({...note , [e.target.name] : e.target.value , desebal:false})
   }
   const updateNote = (note) => {
     
     refShowModal.current.click()
-    setnote({id:note._id , etitle:note.title , edescription :note.description , etag:note.tag})
+    setnote({id:note._id , etitle:note.title , edescription :note.description , etag:note.tag , desebal:true})
   }
   
   return (
@@ -63,7 +67,7 @@ const Note = (props) => {
             </div>
             <div className="modal-footer">
               <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" ref={refClose}>Close</button>
-              <button type="button" className="btn btn-primary" onClick={handleUpdate}>Update Note</button>
+              <button type="button" className="btn btn-primary" disabled={note.desebal} onClick={handleUpdate}>Update Note</button>
             </div>
           </div>
         </div>
