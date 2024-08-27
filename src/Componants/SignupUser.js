@@ -11,7 +11,7 @@ const SignupUser = (props) => {
 
     const handlesignup = async (e) => {
         e.preventDefault()
-        let url = "http://localhost:5000"
+        let url = "https://note-backend-xoec.onrender.com"
 
 
         const response = await fetch(`${url}/api/author/createuser`, {
