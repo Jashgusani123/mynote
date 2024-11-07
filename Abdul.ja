@@ -1,0 +1,579 @@
+const jsonData = [
+    {
+        "title": "Design Pathways",
+        "sections": [
+            {
+                "title": "Building E-commerce Website Using Wix",
+                "number": 1,
+                "modules": [
+                    {
+                        "number": 1,
+                        "title": "Introduction to No-code Tools & Getting Started with Wix.",
+                        "topics": [
+                            {
+                                "title": "What is No Code",
+                                "url": "https://victorious-bean-c06.notion.site/What-is-No-code-12b9f935f2cf8068b742f30cf35f3a36",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80b99df8fa3200395cd1",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Different Types of NoCode",
+                                "url": "https://victorious-bean-c06.notion.site/Different-types-of-NoCode-12b9f935f2cf802f83e3e05662ad3530",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80b99df8fa3200395cd1",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "The benefit of No Code",
+                                "url": "https://victorious-bean-c06.notion.site/Benefits-of-No-Code-12b9f935f2cf80a3bdf1d876e4fb8360",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80b99df8fa3200395cd1",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                   
+                                ]
+                            },
+                            {
+                                "title": "Getting Started with Wix",
+                                "url": "https://victorious-bean-c06.notion.site/Getting-started-with-Wix-12b9f935f2cf80c2832ec5d4311dda0b",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80b99df8fa3200395cd1",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "number": 2,
+                        "title": "Designing a Wix website from scratch.",
+                        "topics": [
+                            {
+                                "title": "Creating header menu and pages ",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "Setting site theme",
+                                "url": "https://victorious-bean-c06.notion.site/Setting-site-theme-12b9f935f2cf8071ba8ce40d592fa754",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80e184ccf39feac55b1f",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Header,Footer & Sections",
+                                "url": "https://victorious-bean-c06.notion.site/Header-Footer-Sections-12b9f935f2cf80588bb6ff75192d6dd5",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80e184ccf39feac55b1f",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Pages and Menus",
+                                "url": "https://victorious-bean-c06.notion.site/Pages-and-Menus-12b9f935f2cf804493b6cc8da7acc6fa",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80e184ccf39feac55b1f",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Sections, Columns and strips",
+                                "url": "https://victorious-bean-c06.notion.site/Sections-Columns-and-strips-12b9f935f2cf80d2a8f9f34ed3412989",
+                                "questions": [
+                                    {
+                                        "title": "Assignment",
+                                        "url": "https://victorious-bean-c06.notion.site/Assignment-12b9f935f2cf80e184ccf39feac55b1f",
+                                        "number": 1,
+                                        "type": "Assignment"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 3,
+                        "title": "Advanced Wix elements - Carousels, Boxes, Pop-ups and Repeaters",
+                        "topics": [
+                            {
+                                "title": "How to add carousels",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "How to add information cards (TEXT+IMAGE+CTA)",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "Light-boxes",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "Repeaters / Components",
+                                "url": "abc",
+                                "questions": []
+                            }
+                        ]
+                    },
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 4,
+                        "title": "Forms & CMS",
+                        "topics": [
+                            {
+                                "title": "Using CMS/Dynamic pages for - Notices / Blogs / News section",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "Design a custom form for vacancies",
+                                "url": "abc",
+                                "questions": []
+                            },
+                            {
+                                "title": "Publishing wix website",
+                                "url": "abc",
+                                "questions": []
+                            }
+                        ]
+                    }
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 5,
+                        "title": "Understanding the Elements of an E-commerce Website",
+                        "topics": [
+                            {
+                                "title": "What is inventory",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Adding products - Image, description, CTA, Labels, Pricing",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "User flow of buying a product",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            // Add more topics as needed
+                        ]
+                    }
+                    // Add more modules as needed
+                ]
+            },
+            {
+                "title": "Building School Website on Canva",
+                "number": 2,
+                "modules": [
+                    {
+                        "number": 6,
+                        "title": "interaction with information on websites",
+                        "topics": [
+                            {
+                                "title": "Basic elements of the website",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Typography",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Color",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Basics of Visual Hierarchy",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            }
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 7,
+                        "title": "Organize and group information",
+                        "topics": [
+                            {
+                                "title": "Additional Elements in UI",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Advanced Visual Hierarchy",
+                                "url": "abc",
+                                'questions': []
+                            }
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "title": "Grouping of complex information and usability guidelines",
+                        "topics": [
+                            {
+                                "title": "How to design information cards",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "sizing of elements",
+                                "url": "abc",
+                                'questions': []
+                            },
+                            {
+                                "title": "Improving readability and usability",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": " learning basic interactions on hover/scroll",
+                                "url": "abc",
+                                'questions': []
+                            }
+                            // Add more topics as needed
+                        ]
+                    },
+                    {
+                        "number": 8,
+                        "title": "Structure and link pages",
+                        "topics": [
+                            {
+                                "title": "Designing the structure of the website",
+                                "url": "abc",
+                                "questions": [
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 2,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Question Title",
+                                        "url": "Abc",
+                                        "number": 3,
+                                        "type": QuestionTypes.QUESTION
+                                    },
+                                    {
+                                        "title": "Assignment Title",
+                                        "url": "Abc",
+                                        "number": 1,
+                                        "type": QuestionTypes.ASSIGNMENT
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "sizing of elements",
+                                "url": "abc",
+                                'questions': []
+                            },
+                        ]
+                    },
+                    // Add more modules as needed
+                ]
+            },
+        ]
+    }
+    // Add more courses as needed
+//https://client-lvew.vercel.app/
+]
+
+
